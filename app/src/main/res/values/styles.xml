@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <!--解决全屏的时候底部content和导航栏之间有一根白线的现象-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <!--状态栏文字黑色-->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!--适配AlertDialog-->
+    <style name="AdaptAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name ="android:background">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/orange_text</item>
+        <!--<item name="android:textColor">#000000</item>-->
+        <!--message颜色-->
+        <item name="android:textColorPrimary">@color/black_text_comfortable</item>
+        <!-- Minor指竖屏模式下的宽度 -->
+        <item name="android:windowMinWidthMinor">375dp</item>
+        <item name="windowFixedWidthMinor">375dp</item>
+    </style>
+</resources>

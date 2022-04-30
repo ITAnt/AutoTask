@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_light">#FFFFFF</color>
+
+    <color name="gray">#ededed</color>
+    <color name="grayDark">#adadad</color>
+    <color name="gray_text_1">#62656A</color>
+    <color name="gray_text_2">#5F6267</color>
+    <color name="gray_normal">#6D6D6D</color>
+    <color name="gray_hint">#81868B</color>
+    <color name="gray_status_bar">#C1C1C1</color>
+    <color name="gray_divider_1">#E0E0E0</color>
+    <color name="gray_divider_2">#adadad</color>
+    <color name="gray_disabled">#4DFFFFFF</color>
+    <color name="gray_text">#222222</color>
+    <color name="gray_bg_default">#F3F3F3</color>
+    <color name="gray_status_bar_2">#C8C8C8</color>
+    <!-- 内容文字,正文 -->
+    <color name="gray_text_s">#777777</color>
+    <!-- 辅助文字,提示 -->
+    <color name="gray_text_hint">#ababab</color>
+    <!--<color name="gray_light">#CCCCCC</color>-->
+    <!-- 分割线 -->
+    <color name="gray_divider_light">#d9d9d9</color>
+    <color name="gray_divider_light_transparent">#80D9D9D9</color>
+    <color name="gray_divider_light_s">#ebebeb</color>
+    <color name="gray_divider_light_ss">#eeeeee</color>
+    <!--<color name="gray_divider_light_ss">#f0f0f0</color>-->
+    <color name="gray_loading">#26E0E0E0</color>
+    <color name="gray_tab_unchecked">#717171</color>
+
+    <color name="black_light">#252525</color>
+    <color name="black_light_transparent">#6B1B1B1B</color>
+    <color name="black_dark">#1b1b1b</color>
+    <color name="black_standard">#333333</color>
+    <color name="black_title">#5F6267</color>
+    <color name="black_text">#3C4043</color>
+    <color name="black_text_hint">#A6A6A6</color>
+    <color name="black_text_comfortable">#565656</color>
+
+    <color name="orange_text">#F96650</color>
+
+
+    <color name="colorPrimary">#fafafa</color>
+    <color name="colorPrimaryDark">#fafafa</color>
+    <color name="colorAccent">#fafafa</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_icon_light">#fbfbfb</color>
+    <color name="white_button">@color/gray_indicator</color>
+
+    <color name="black">#000000</color>
+    <color name="black_back">#444444</color>
+    <color name="black_icon">#545E60</color>
+
+    <color name="green_bright">#00e478</color>
+    <color name="green">#4CB050</color>
+    <color name="green_bg">#b5d8b7</color>
+    <color name="green_flag">#e8f6e9</color>
+
+    <color name="gray_text3">#afafaf</color>
+    <color name="gray_text2">#b5b5b5</color>
+    <color name="gray_text1">#D0D0D0</color>
+    <color name="gray_icon">#d8d8d8</color>
+    <color name="gray_bg">#F4F2F3</color>
+    <color name="gray_flag">#f5f5f5</color>
+    <color name="gray_indicator">#f8f8f8</color>
+
+    <color name="blue_dark">#100c2d</color>
+    <color name="blue_light">#565678</color>
+
+    <color name="yellow">#fed930</color>
+
+    <color name="green_what">#008069</color>
+    <color name="green_what_second">#00a884</color>
+    <color name="green_what_light">#d8fdd2</color>
+    <color name="white_what_text">#b4d9d2</color>
+    <color name="blue_what">#1ebea6</color>
+</resources>

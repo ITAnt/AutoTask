@@ -1,0 +1,23 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:accessibilityFlags="flagReportViewIds"
+    android:canPerformGestures="true"
+    android:canRequestTouchExplorationMode="true"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/app_name"
+    android:notificationTimeout="100"
+    android:packageNames="com.itant.at"
+    android:settingsActivity="com.itant.at.ui.main.MainActivity" />
+
+
+    <!--description 说明
+        packageNames 要监控的应用包名，多个应用用“,”隔开;
+        accessibilityEventTypes="typeViewTextChanged|typeViewFocused|typeViewLongClicked|typeViewClicked|typeViewScrolled|typeWindowStateChanged"
+        accessibilityEventTypes 此服务希望接收的事件类型;
+        accessibilityFlags 辅助功能附加的标志，多个使用 ’ | '分隔,如flagRequestFilterKeyEvents 能够监听到系统的物理按键;
+        accessibilityFeedbackType 反馈类型，有语音、视觉、触觉等;
+        notificationTimeout 同一类型的两个辅助功能事件发送到服务的最短间隔（毫秒，两个辅助功能事件之间的最小周期）;
+        canRetrieveWindowContent 辅助功能服务是否能够取回活动窗口内容的属性;
+        settingsActivity 允许用户修改辅助功能的activity组件名称;
+    -->
